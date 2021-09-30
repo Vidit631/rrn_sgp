@@ -68,7 +68,8 @@ def main():
     PSNR_avg = 0
     SSIM_avg = 0
     count = 0
-    scene_list = ['calendar','city','foliage','walk'] # Vid4
+    scene_list = ['foliage']
+    #scene_list = ['calendar','city','foliage','walk'] # Vid4
     #scene_list = ['archpeople','archwall','auditorium','band','caffe','camera','lake','clap','photography','polyflow'] # UDM10
     #scene_list = ['car05_001', 'hdclub_003_001', 'hitachi_isee5_001', 'hk004_001', 'HKVTG_004', 'jvc_009_001', 'NYVTG_006', 'PRVTG_012', 'RMVTG_011', 'veni3_011', 'veni5_015'] # SPMCS
 
